@@ -13,7 +13,7 @@
     "keywords": ["Laravel", "Ivrc"],
     "require": {
         "illuminate/support": "^8.6",
-        "yajra/laravel-oci8": "^8.0"
+        "yajra/laravel-oci8": "8"
     },
     "require-dev": {
         "phpunit/phpunit": "~9.0",
