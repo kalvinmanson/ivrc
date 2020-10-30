@@ -1,0 +1,42 @@
+{
+    "name": "lavenir/ivrc",
+    "description": "Ivr connect for Lavenir projects",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gustavo Barragan",
+            "email": "dev@droni.co",
+            "homepage": "droni.co"
+        }
+    ],
+    "homepage": "https://github.com/lavenir/ivrc",
+    "keywords": ["Laravel", "Ivrc"],
+    "require": {
+        "illuminate/support": "~7|~8",
+        "yajra/laravel-oci8": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~9.0",
+        "orchestra/testbench": "~5|~6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lavenir\\Ivrc\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Lavenir\\Ivrc\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lavenir\\Ivrc\\IvrcServiceProvider"
+            ],
+            "aliases": {
+                "Ivrc": "Lavenir\\Ivrc\\Facades\\Ivrc"
+            }
+        }
+    }
+}
