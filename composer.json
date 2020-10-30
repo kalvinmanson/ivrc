@@ -12,6 +12,7 @@
     "homepage": "https://github.com/lavenir/ivrc",
     "keywords": ["Laravel", "Ivrc"],
     "require": {
+        "illuminate/support": "^8.6",
         "yajra/laravel-oci8": "^7.0"
     },
     "require-dev": {
